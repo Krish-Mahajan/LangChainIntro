@@ -1,0 +1,69 @@
+ Compiled source code
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc  # Python bytecode
+
+# Build artifacts
+build/
+dist/
+target/
+*.jar
+*.war
+*.egg
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store  # macOS specific
+Thumbs.db   # Windows specific
+.cache
+__pycache__/ # Python cache
+
+# IDE specific files (adjust as needed)
+.idea/      # IntelliJ IDEA
+.vscode/    # VS Code
+.settings/  # Eclipse
+
+# Sensitive data (never commit these!)
+config.ini
+secrets.json
+*.key
+*.pem
+
+# OS-specific files
+.localized
+
+# Node.js specific
+node_modules/
+package-lock.json
+
+# Python virtual environment
+.venv/
+venv/
+
+# Large files (consider Git LFS for these)
+*.psd  # Photoshop files
+*.zip
+*.rar
+*.7z
+
+# Ignore specific files within a directory
+/data/ignore_me.txt
+
+# Force inclusion of a file that would otherwise be ignored
+!important.txt
+
+# Ignore everything within a directory except one file
+temp/
+!temp/keep_me.txt
+
+# Example for a specific language/framework
+.env  # Environment variables (often sensitive)
+
+.DS_Store
